@@ -114,3 +114,18 @@
     flex-direction: column;
   }
 }
+
+.carousel__container {
+  /* max-width constrains the width of our carousel to 550, but shrinks on small devices */
+  max-width: 550px;
+  margin: auto;
+}
+
+.carousel__inner-slide {
+  width: calc(80% );
+  height: calc(100%);
+  left: 10px;
+  top: 10px;
+  background-color: burlywood;
+}
+
